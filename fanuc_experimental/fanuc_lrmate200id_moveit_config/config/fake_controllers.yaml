@@ -7,7 +7,3 @@ controller_list:
       - joint_4
       - joint_5
       - joint_6
-  - name: fake_hand_controller
-    joints:
-      - finger_joint1
-      - finger_joint2

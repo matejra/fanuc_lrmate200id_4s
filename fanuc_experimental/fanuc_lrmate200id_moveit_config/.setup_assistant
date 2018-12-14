@@ -2,10 +2,8 @@ moveit_setup_assistant_config:
   URDF:
     package: fanuc_lrmate200id_support
     relative_path: urdf/lrmate200id.xacro
-    xacro_args: ""
+    use_jade_xacro: true
   SRDF:
     relative_path: config/fanuc_lrmate200id.srdf
   CONFIG:
-    author_name: Matej Razingar
-    author_email: matejrazingar@yahoo.com
-    generated_timestamp: 1544089246
+    generated_timestamp: 1445587097
