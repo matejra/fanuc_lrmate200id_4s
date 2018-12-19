@@ -1,4 +1,4 @@
-# fanuc_lrmate200id_support
+# fanuc_lrmate200id_4s_support
 
 ## Overview
 
