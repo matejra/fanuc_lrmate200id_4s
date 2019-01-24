@@ -58,6 +58,6 @@
 
   <!--<node pkg="rviz_markers" type="frame_tf2_broadcaster"
           name="camera_frame" />-->
-  <node pkg="tf" type="static_transform_publisher" name="camera_frame" args="0.39 0.10 0.92 -1.5708 0 0 base_link camera_frame 100" />
+  <node pkg="tf" type="static_transform_publisher" name="camera_frame" args="0.5055 0.0205 0.883 1.5708 0 3.1459 base_link camera_frame 100" /><!-- rz ry rx -->
   <node pkg="tf" type="static_transform_publisher" name="working_table_fr" args="0.556 0.249 0.016 -1.5708 0 0 base_link working_table_fr 100" />
 </launch>
