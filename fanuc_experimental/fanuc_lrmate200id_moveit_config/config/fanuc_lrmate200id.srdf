@@ -34,6 +34,14 @@
         <joint name="joint_5" value="-1.35499" />
         <joint name="joint_6" value="0" />
     </group_state>
+    <group_state name="randomdown" group="manipulator">
+        <joint name="joint_1" value="-0.3535" />
+        <joint name="joint_2" value="0.6730" />
+        <joint name="joint_3" value="-0.2544" />
+        <joint name="joint_4" value="0" />
+        <joint name="joint_5" value="-0.6433" />
+        <joint name="joint_6" value="0.3535" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="end_effector" parent_link="link_6" group="gripper" parent_group="manipulator" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
